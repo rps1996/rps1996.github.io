@@ -20,19 +20,23 @@ body {
   z-index: 5;
   padding: 1px;
   border: 5px solid white;
+  display: flex;
+  justify-content: space-around;
 
 
 }
 
 .header nav {
 
-  display: inline-block;
+  display: inline;
+
 
 }
 
 .header h1 {
 
   font-family: Bebas Neue;
+  display: inline;
 
 }
 
