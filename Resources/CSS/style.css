@@ -1,7 +1,7 @@
 .header {
 
   background-color: white;
-  height: 115px;
+  height: 175px;
   width: 100%;
   margin: 0px;
 
@@ -56,13 +56,12 @@
   width: 95%;
   height: 600px;
   margin: 0 auto;
-  padding-top: 140px;
+  padding-top: 240px;
 
   display: flex;
   justify-content: space-between; 
   align-items: center;
 
-  overflow: scroll;
 
 }
 
@@ -133,8 +132,10 @@
 .footer {
 
   background-color: Aquamarine;
-  height: 200px;
+  height: 100px;
   width: 100%;
+
+  margin-bottom: 0px;
 
 }
 
