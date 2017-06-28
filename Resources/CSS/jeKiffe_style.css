@@ -1,0 +1,101 @@
+body {
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0px 0px 0px 0px;
+
+  background-color: azure;
+  font-family: Monaco;
+  display: flex;
+
+
+}
+
+.sidebar {
+
+
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+
+	height: 400px;
+
+	background-color: white;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	justify-content: space-around;
+	align-items: center;
+
+	z-index: 10;
+
+
+}
+
+.sidebar a {
+
+
+
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Monaco;
+
+}
+
+
+a:hover {
+
+  color: pink;
+  font-size: 155%;
+  transition: .5s;
+
+}
+
+.description {
+
+	background-color: white;
+	opacity: .8;
+	width: 200px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+
+	display: inline-flex;
+	height: 400px;
+	position: fixed;
+	flex-direction: column;
+
+	z-index: 2;
+	margin-right: 0%;
+	margin-left: 1100px;
+	align-items: center;
+	text-align: center;
+
+}
+
+.main {
+
+	margin-top: 20px;
+	margin-left: 225px;
+	margin-right: 225px;
+
+
+	border: 1px solid black;
+	background-color: white;
+	width: 67%;
+	height: 100%;
+
+	z-index: 3;
+	overflow: scroll;
+
+
+}
+
+.story {
+
+	text-align: left;
+
+}
+
